@@ -1,0 +1,1 @@
+SELECT TOP (10) Firstname from Students 
