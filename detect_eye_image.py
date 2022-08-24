@@ -10,7 +10,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 #face_cascade = cv2.CascadeClassifier('haarcascade_righteye_2splits.xml')
 
 # Read the input image
-img = cv2.imread('test.jpg')
+img = cv2.imread('test_image.jpg')
 
 # Convert RGB into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
