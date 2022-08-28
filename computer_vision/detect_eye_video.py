@@ -1,9 +1,9 @@
 import cv2
 
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade\haarcascade_eye.xml')
 
-#face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+#face_cascade = cv2.CascadeClassifier('haarcascade/haarcascade_frontalface_default.xml')
 #face_cascade = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml')
 #face_cascade = cv2.CascadeClassifier('haarcascade_lefteye_2splits.xml')
 #face_cascade = cv2.CascadeClassifier('haarcascade_righteye_2splits.xml')
@@ -11,7 +11,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 
 # To capture video from webcam. 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 # To use a video file as input 
 # cap = cv2.VideoCapture('filename.mp4')
 
